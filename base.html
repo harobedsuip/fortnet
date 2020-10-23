@@ -1,0 +1,63 @@
+{% load static %}
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> {{title}} </title>
+    <link rel = 'stylesheet' href=" {% static 'fort/bootstrap/css/bootstrap.min.css' %} ">
+    <link rel='stylesheet' href="{% static 'fort/bootstrap/index.css' %}">
+</head>
+<body>
+
+    {% block content %}
+
+    {% endblock content %}
+    
+
+    <script src = "{% static 'fort/jquery.js' %}"></script>
+    <script src = "{% static 'fort/bootstrap/js/bootstrap.min.js' %}"></script>
+    
+
+    <script>
+        $(document).on("mouseover", '.dropdown', function(){
+            $(this).addClass("show");
+            $(this).has(".dropdown-menu").find(".dropdown-menu").addClass("show");
+        });
+
+        $(document).on("mouseout", '.dropdown', function(){
+            $(this).removeClass("show");
+            $(".dropdown-menu").removeClass("show");
+        });
+
+
+        
+
+
+
+       /*
+
+        var x =0;
+        var text ="Taxation services"
+        var container = document.getElementById("type");
+
+        function animate() {
+            if(x < text.length){
+                container.innerHTML += text.charAt(x);
+                x++;
+                setTimeout(animate, 80);
+            }
+        }
+
+        animate();
+
+        */
+
+
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,319 @@
+{% extends 'fort/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+    <div class="w-100">
+        <nav class="navbar navbar-expand-sm top">
+            <a class="navbar-brand t1" href="#">
+                <img src="/media/logo.png" alt="logo">
+            </a>
+            <ul class="navbar-nav nav-pills">
+                <li class="navbar-item dropdown">
+                    <a class="navbar-link"  data-toggle="dropdown">Financial Reporting</a>
+                    <div class="dropdown-menu drops" style="width: 200px;">
+                        <div class="row">
+                            <div class="col-12">
+                                <a class="dropdown-item">Financial Reporting</a>
+                                <a class="dropdown-item">Assurance</a>
+                                <a class="dropdown-item">Taxation Services</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item dropdown">
+                    <a class="navbar-link">Corporate Consulting</a>
+                </li>
+
+
+                <li class="navbar-item dropdown  ">
+                    <a class="navbar-link">Financial Advisory &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;</a>
+                    <div class="dropdown-menu " style="width: 600px;">
+                        <div class="row">
+                            <div class="col-6  ">
+                                <a class="dropdown-item">
+                                    <p>We seek new approaches and set new<br>directions. 
+                                        Applying fresh thinking to<br> meet the challenges Ahead.</p>       
+                                </a>
+                                <div class="text-center">
+                                    <a class="btn btn-white ">Explore</a>
+                                </div>
+                            </div>
+                            <div class="col-6 blue">
+                                <a class="dropdown-item">corporate advisory</a>
+                                <a class="dropdown-item">public sector advisory</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="navbar-item t2">
+                    <a class="navbar-btn btn btn-outline-warning t3"> Talk To A Consultant</a>
+                </li>
+            </ul>
+        </nav>
+
+        
+        <div class="con">
+            <h1 class="text-center text-warning display-4" style="padding-top: 100px;">
+                    Welcome to <span class="text-dark"><strong>Fortnet</strong></span> <br> Consulting </h1>
+            <p class="text-center text-white">We work collaboratively, bringing innovative thinking, strong facilitation skills, 
+                and <br> proven strategic framework to your business/organization</p>
+                <div class="text-center">
+                    <a href="" class="btn btn-outline-warning ">continue reading</a>
+                </div>
+        </div>
+        
+
+        
+            <div class="row ree">
+                <div class="col-4 r1">
+                    <h5>About us</h5>
+                    <p>We are an emerging market Consulting<br> and Advisory company located in Abuja,<br> Nigeria.</p>
+                </div>
+                <div class="col-4 r1">
+                    <h5>Our Service Offering</h5>
+                    <p>Our viewpoints and insights can provide<br> fresh inspiration and perspective for<br> your organization</p>
+                </div>
+                <div class="col-4 r1">
+                    <h5>Key Management Team</h5>
+                    <p>Members of our Management Team are<br> chosen for the wealth of experience and<br> unique perspective they possess.</p>
+                </div>
+            </div>
+
+            <div class="parallax1">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="d-block mx-auto" src="/media/finR.jpg">
+                    </div>
+                    <div class="col-6">
+                        <h4>Financial Reporting and Assurance</h4>
+                        <h4 style="color: #42BA96;" id="type"></h4>
+                        <p>Financial Reporting is a very serious matter. In spite<br>
+                             of being considered as non-core, accounting services form <br>
+                             an integral part of organizations operational capabilities<br>
+                              and help streamline core business operations of an<br>
+                               organization. With it, a company may either prosper or die.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="parallax2">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-3"></div>
+                            <div class="col-9">
+                                <h4 style="color: #615C43;">Corporate Consulting</h4>
+                                <p>In today’s competitive business environment, the<br>
+                                    challenge to reduce costs while growing top line by<br>
+                                    improving business processes, operations, and dynamics<br>
+                                    has never been greater.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <img class="d-block mx-auto " src="/media/cal.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="parallax3">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="mx-auto d-block" src="/media/fin ad.jpg">
+                    </div>
+                    <div class="col-6">
+                        <h4>Finanacial Advisory</h4>
+                        <p>Our Corporate Advisory includes advisory assignments<br>
+                             with respect to mergers and acquisitions, divestitures,<br>
+                             corporate restructuring activities, and spin-offs. We have<br>
+                             a broad franchise that serves individuals, corporations,<br>
+                             financial institutions and governments
+                        </p>
+                        <div class="row" style="color: #47B28E;">
+                            <p> <span class="badge badge-pill "> &check; </span>Corporate Advisory </p>
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             <p> <span class="badge badge-pill " > &check; </span>Public sector Advisory </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="parallax4">
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Our Management Team</h3>
+                        <p>FortNett is committed to exercising the highest level of corporate governance.<br>
+                            Clear strategic goals, corporate values, transparency and accountability are<br>
+                            key elements of our corporate governancepolicy. Pursuant to our Corporate<br>
+                            Governance objectives, membersof our Management Team are chosen for the<br>
+                            wealth of experience and unique perspective they possess.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2"> </div>
+                    <div class="col-8">
+                        <div id="demo" class="carousel slide" data-ride="carousel">
+
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                              <li data-target="#demo" data-slide-to="0" class="active"></li>
+                              <li data-target="#demo" data-slide-to="1"></li>
+                              <li data-target="#demo" data-slide-to="2"></li>
+                            </ul>
+                            
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                    <img src="/media/avatar2.png" alt="Los Angeles" width="1100" height="500">
+                                        <div class="carousel-caption">
+                                            <h3>M.A, B.SC, MD</h3>
+                                            <P>CHECK THIS </P>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="/media/avatar3.png" alt="Chicago" width="1100" height="500">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="/media/avatar6.png" alt="New York" width="1100" height="500">
+                              </div>
+                            </div>
+                            
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                              <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#demo" data-slide="next">
+                              <span class="carousel-control-next-icon"></span>
+                            </a>
+                          </div>
+                          
+                    </div>
+                    <div class="col-2"></div>
+
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="part1">
+                    <h2>About Us</h2>
+                    <p>FortNett is an emerging market Consulting and Advisory Firm located<br>
+                        in Abuja, Nigeria. We work collaboratively with the key stakeholders in<br>
+                        emerging African markets in delivering value to businesses across all<br>
+                        sectors of the economy.
+                    </p>
+                </div>
+                <div class="row part2">
+                    <div class="col-2"></div>
+                    <div class="col-4">
+                        <h5>Solutions</h5>
+                        <p>We do not believe in standard industry answers. We<br>
+                             know that custom solutions yield the greatest<br>
+                             competitive advantage and add value for our clients. We<br>
+                             ground each solution in our clients’ unique<br>
+                             circumstances.
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <h5>Strategic Perspective</h5>
+                        <p>Strategy matters in all business endeavors. We seek to <br>
+                            identify advantage in all our efforts by identifying<br>
+                             market positions, competitive system, business<br>
+                             dynamics, as well as undertaking rigorous analysis of<br>
+                             market datum, external perspectives, and root causes.
+                        </p>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row part2">
+                    <div class="col-2"></div>
+                    <div class="col-4">
+                        <h5>Value Delivered</h5>
+                        <p>We start with the perspective that the goal is not simply<br>
+                            to apply industry best practices but to invent it. Each<br>
+                             client is unique, and there is seldom only one solution.
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <h5>Capability</h5>
+                        <p>We develop new insights about our clients’ business,<br>
+                             mobilize the organization to act, drive tangible bottom-<br>
+                             line results, and make the organization more capable.</p>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row part2">
+                    <div class="col-2"></div>
+                    <div class="col-4">
+                        <h5>Redefining Possibilities</h5>
+                        <p>We start with the perspective that the goal is not simply<br>
+                            to apply industry best practices but to invent it. Each<br>
+                             client is unique, and there is seldom only one solution.
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <h5>Ethical Standard</h5>
+                        <p>We recognize that ours is a demanding profession.<br> We
+                             set our standard for value creation very high<br> and
+                             discharge our duties with due skill and<br> professional care
+                             to prevent situations that may<br> question our ethical
+                             stance. We accept<br> responsibilities as
+                             a group and as individuals.
+                        </p>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                
+                <div class="part1">
+                    <h2>Fortnet</h2>
+                    <p>At FortNett, we strive to redefine possibilities, where our goal is not simply to<br>
+                         apply industry best practices but to invent them. Each client is unique, and<br>
+                          there is seldom only one solution.
+                    </p>    
+                </div>
+                <div class="text-center" style="margin-top: 50px; padding-bottom: 50px;">
+                    <a href="" class="btn btn-outline-warning ">continue reading</a>
+                </div>
+        
+            </div>
+
+            <div class="footer">
+                <div class="row text-center end mb-4">
+                    
+                    <div class="col-4 end1">
+                        <img src="/media/logo.png">
+                        <p>Our viewpoints and insights can provide<br>
+                             fresh inspiration and perspective for<br>
+                              your organization!
+                        </p>
+                    </div>
+
+                    <div class="col-4 text-center">
+                        <h4>SERVICES</h4>
+                         <p>Finanacial Reporting and Assurance<br>
+                            Corporate Consulting<br>
+                            Finanacial Advisory
+                        </p>
+                    </div>
+
+                    <div class="col-4 text-center last end3">
+                        <h4>CONTACT</h4>
+                        <p> DL: <span style="color: #335EED;"> 08138269872</span><br>
+                            Email:<span style="color: #335EED;"> hasuip11@gmail.com</span> <br>
+                             No 1, Panama Street, Off IBB Boulevard, Maitama, Abuja.
+                        </p>
+                    </div>
+                    
+
+                </div>
+            </div>
+        
+            
+    </div>
+
+{% endblock content %}

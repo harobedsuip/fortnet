@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    background-color: #2B354F;
+    color: #ffffff;
+    height: 80px;
+    font-size: large;
+    padding-left: 15%;
+}
+
+
+.t1{
+    padding-right: 70px;
+}
+
+.t2{
+    
+    color: #FAD770;
+}
+
+
+.t3{
+    color: #FACA62;
+    font-size: 17px;
+}
+
+.t2:hover{
+  color: black; 
+  transform: translate3d(0,-3px,0);
+}
+
+.drops{
+    color: #335eea;
+}
+
+
+nav ul li a{
+    padding: 30px;
+}
+
+
+.w-100 .con{
+    background-image: url(/media/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.container-fluid p{
+    color: #ffffff;
+    font-size: larger;
+}
+
+.ree{
+    padding: 70px;
+}
+
+.r1 h5{
+    text-align: center;
+    color: #61594F;
+}
+
+.r1 p{
+    color: #8EA2BA;
+    text-align: center;   
+}
+
+
+.parallax1{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/media/tree2.jpg);
+    min-height: 570px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.parallax1 .col-6{
+    margin-top: 150px;
+}
+
+.parallax1 .col-6 p{
+    font-size: larger;
+}
+
+.parallax1 > div img{
+    width: 350px;
+    transform: skewX(20deg);
+    border-radius: 8px;
+}
+
+.parallax2{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/media/light.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 .col-6{
+    margin-top: 150px;
+}
+
+.parallax2 .col-6 p{
+    font-size: larger;
+    color: #4477B8;
+}
+
+.parallax2 > div img{
+    width: 400px;
+    transform: skewX(-20deg);
+    border-radius: 8px;
+}
+
+
+.parallax3{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/media/construction.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    
+}
+
+.parallax3 .col-6{
+    margin-top: 150px;
+}
+
+.parallax3 > div img{
+    width: 350px;
+    transform: skewX(-20deg);
+    border-radius: 8px;
+}
+
+
+.parallax4{
+    background-image: url(/media/chess.jpg);
+    filter: grayscale(100%);
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+}
+
+.parallax4 p{
+    font-size: larger;
+}
+
+.parallax4 .col-12{
+    margin-top: 100px;
+}
+
+.bottom{
+    background-color: #2B354F;
+}
+
+.part1 h2{
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+.part1 p{
+    color: #506690;
+    font-size: larger;
+}
+
+.part1 p, h2{
+    text-align: center;
+}
+
+
+.part2 h5{
+    color: #ffffff;
+    padding-top: 80px;
+}
+
+.part2 p{
+    color: #4374B1;
+    font-size: large;
+}
+
+.end{
+    margin-top: 70px;
+}
+
+.end p, h4{
+    color: #869AB8;
+}
+
+.end p{
+    font-size: large;
+}
+
+.end1{
+    padding-left: 100px;
+}
+
+.end3{
+    padding-right: 150px;
+}
+
+.explore a{
+    color: blue;
+}
